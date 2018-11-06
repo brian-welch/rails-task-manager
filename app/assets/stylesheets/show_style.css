@@ -1,0 +1,28 @@
+.task-details {
+  text-indent: -25px;
+  padding-left: 25px;
+}
+.task-status {
+
+}
+
+h2 > i {
+  margin-right: 20px;
+}
+
+.task-status > i {
+  margin-right: 10px;
+  box-shadow: 0 0 0 1px white, 0 0 0 2px rgba(0, 0, 0, 0.4);
+  border-radius: 1px;
+  text-shadow: 0 0 0 black;
+}
+.fas.fa-square {
+  color: rgba(180, 0, 0, 0.7);
+}
+.fas.fa-check-square {
+  color: rgba(0, 170, 0, 0.9);
+}
+
+.back-to-task-list {
+
+}

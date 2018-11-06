@@ -1,0 +1,21 @@
+<style type="text/css">
+
+</style>
+
+<h2><i class="fas fa-thumbtack"></i><%= @task.title %></h2>
+<hr>
+<p class="task-details">
+  <u>Details</u>:<br>
+  <%= @task.details.capitalize %>
+</p>
+
+<p class="task-status">
+  <i class="fas fa-<%= @task.completed? ? 'check-' : '' %>square"></i><%= @status %>
+</p>
+<p>
+  <%= link_to "Edit Task", edit_task_path %>
+</p>
+<hr>
+<%= link_to "Back to Task List", tasks_path %>
+
+

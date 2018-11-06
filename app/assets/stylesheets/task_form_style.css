@@ -1,0 +1,9 @@
+.task-form-container {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.red-link {
+/*  color: rgba(200, 0, 0, 0.9) !important;*/
+}

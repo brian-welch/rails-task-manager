@@ -1,0 +1,21 @@
+.task-list-all {
+  list-style: none;
+  line-height: 1.75em;
+}
+.task-list-all > li > i {
+  margin-right: 10px;
+  box-shadow: 0 0 0 1px white, 0 0 0 2px rgba(0, 0, 0, 0.4);
+  border-radius: 1px;
+}
+.fas.fa-square {
+  color: rgba(180, 0, 0, 0.7);
+}
+.fas.fa-check-square {
+  color: rgba(0, 150, 0, 0.9);
+}
+
+.trash-link {
+  font-size: 0.85em;
+  margin-left: 5px;
+  color: rgba(180, 0, 0, 0.7) !important;
+}

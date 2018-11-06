@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+
+@import 'index_style.css';
+@import 'show_style.css';
+@import 'edit_style.css';
+@import 'new_style.css';
+@import 'task_form.css';
+
+
+body {
+  margin-top: 50px;
+}
